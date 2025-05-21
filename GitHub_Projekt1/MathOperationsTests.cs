@@ -70,7 +70,7 @@ namespace GitHub_Projekt1
         [InlineData(5, 3, 15)]  // TestCase 1
         [InlineData(5, 4, 20)]  // TestCase 2
         [InlineData(21, 19, 399)]  // TestCase 3
-        [InlineData(101, 99, 10000)]  // TestCase 4
+        [InlineData(101, 99, 10001)]  // TestCase 4
 
         public void Multiply_ShouldReturnCorrectProductMultipleTestCases(int a, int b, int expected)
         {
